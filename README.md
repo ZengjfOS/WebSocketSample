@@ -19,12 +19,12 @@
 * Terminal Output
     ```
         zengjf@zengjf:~/zengjf/zengjfos/websocket$ ls
-        main.c  Makefile  README.md  test
-        zengjf@zengjf:~/zengjf/zengjfos/websocket$ make
+        src  README.md  test
+        zengjf@zengjf:~/zengjf/zengjfos/websocket$ cd src && make
         gcc main.c -lwebsockets -o lwsserver
-        zengjf@zengjf:~/zengjf/zengjfos/websocket$ ls
-        lwsserver  main.c  Makefile  README.md  test
-        zengjf@zengjf:~/zengjf/zengjfos/websocket$ ./lwsserver 
+        zengjf@zengjf:~/zengjf/zengjfos/websocket/src$ ls
+        lwsserver  main.c  Makefile 
+        zengjf@zengjf:~/zengjf/zengjfos/websocket/src$ ./lwsserver 
         [2017/05/10 16:46:57:7205] NOTICE: Initial logging level 7
         [2017/05/10 16:46:57:7205] NOTICE: Libwebsockets version: 1.7.3 unknown-build-hash
         [2017/05/10 16:46:57:7205] NOTICE: IPV6 not compiled in
