@@ -1,4 +1,4 @@
-# WebSocket ---- libwebsockets Simple Example
+# WebSocket Sample ---- libwebsockets Simple Example
 
 # Refers
 
@@ -42,5 +42,5 @@
         received data: zengjf
         received data: zengjf, replying: fjgnez
     ```
-* Browser Output  
+* Browser Output([test/client.html](test/client.html))  
 ![browser.png](image/browser.png)
