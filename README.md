@@ -7,7 +7,7 @@
 * [Shared library compilation gcc](https://stackoverflow.com/questions/28271405/shared-library-compilation-gcc)
 * [libwebsockets libwebsockets-webserver.c hacking](http://www.cnblogs.com/zengjfgit/p/6973368.html)
 
-# How Make It Work
+# Make It Work
 
 ## Ubuntu 
 
@@ -22,17 +22,17 @@
 * Refer to [Makefile.buildroot](src/Makefile.buildroot). Modify relative paths arguments;
 * `make` and copy `lwsserver` to your motherboard and execute it;
 
-# Output Picture
+# Output
 
 * Terminal Output
     ```
         zengjf@zengjf:~/zengjf/zengjfos/websocket$ ls
-        main.c  Makefile  README.md  test
-        zengjf@zengjf:~/zengjf/zengjfos/websocket$ make
+        src  README.md  test
+        zengjf@zengjf:~/zengjf/zengjfos/websocket$ cd src && make
         gcc main.c -lwebsockets -o lwsserver
-        zengjf@zengjf:~/zengjf/zengjfos/websocket$ ls
-        lwsserver  main.c  Makefile  README.md  test
-        zengjf@zengjf:~/zengjf/zengjfos/websocket$ ./lwsserver 
+        zengjf@zengjf:~/zengjf/zengjfos/websocket/src$ ls
+        lwsserver  main.c  Makefile 
+        zengjf@zengjf:~/zengjf/zengjfos/websocket/src$ ./lwsserver 
         [2017/05/10 16:46:57:7205] NOTICE: Initial logging level 7
         [2017/05/10 16:46:57:7205] NOTICE: Libwebsockets version: 1.7.3 unknown-build-hash
         [2017/05/10 16:46:57:7205] NOTICE: IPV6 not compiled in
