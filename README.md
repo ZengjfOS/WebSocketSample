@@ -7,14 +7,14 @@
 * [Shared library compilation gcc](https://stackoverflow.com/questions/28271405/shared-library-compilation-gcc)
 * [libwebsockets libwebsockets-webserver.c hacking](http://www.cnblogs.com/zengjfgit/p/6973368.html)
 
-# How Make It Work
+# Make It Work
 
 * `sudo apt-get install libwebsockets-dev`
 * `cd src`
 * `make`
 * `./lwsserver`
 
-# Output Picture
+# Output
 
 * Terminal Output
     ```
