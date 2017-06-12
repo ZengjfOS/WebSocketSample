@@ -9,10 +9,18 @@
 
 # How Make It Work
 
+## Ubuntu 
+
 * `sudo apt-get install libwebsockets-dev`
 * `cd src`
 * `make`
 * `./lwsserver`
+
+## Buildroot For ARM
+
+* Download buildroot and set it for your demand, `make` to generate the filesystem;
+* Refer to [Makefile.buildroot](src/Makefile.buildroot). Modify relative paths arguments;
+* `make` and copy `lwsserver` to your motherboard and execute it;
 
 # Output Picture
 
